@@ -1,17 +1,23 @@
 {
   "tree": [{
     "id": 1,
-    "label": "Demo",
+    "label": "实例",
     "children": [{
       "id": 4,
+      "label": "测试",
+      "path": "test"
+    }, {
+      "id": 5,
       "label": "drag",
       "children": [{
           "id": 9,
-          "label": "HTML5-drag"
+          "label": "HTML5-drag",
+          "path": "drag"
         },
         {
           "id": 10,
-          "label": "Vue-dragging"
+          "label": "Vue-dragging",
+          "path": "dragging"
         }
       ]
     }]
@@ -19,11 +25,11 @@
     "id": 2,
     "label": "一级 2",
     "children": [{
-        "id": 5,
+        "id": 6,
         "label": "二级 2-1"
       },
       {
-        "id": 6,
+        "id": 7,
         "label": "二级 2-2"
       }
     ]
@@ -31,11 +37,11 @@
     "id": 3,
     "label": "一级 3",
     "children": [{
-        "id": 7,
+        "id": 8,
         "label": "二级 3-1"
       },
       {
-        "id": 8,
+        "id": 9,
         "label": "二级 3-2"
       }
     ]
